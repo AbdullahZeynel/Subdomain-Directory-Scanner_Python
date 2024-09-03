@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Directory and Subdomain Scanner** is a Python-based tool designed to scan for subdomains and directories of a given target domain. It allows users to use custom wordlists for more targeted scanning and provides an easy-to-use menu interface for interaction.
+The **Directory and Subdomain Scanner** is a Python-based tool designed to scan for subdomains and directories of a given target domain. It allows you to use custom wordlists for more targeted scanning and provides an easy-to-use menu interface for interaction.
 
 ## Features
 
@@ -45,20 +45,11 @@ The **Directory and Subdomain Scanner** is a Python-based tool designed to scan 
    pip install -r requirements.txt
    ```
 
-   You can create the `requirements.txt` file with the following content:
-
-   ```txt
-   requests
-   ```
-
 ### Usage
 
 1. **Prepare Your Wordlists**
 
-   - **Subdomain Wordlist**: [subdomains-10000.txt](https://github.com/rbsec/dnscan/blob/master/subdomains-10000.txt)
-   - **Directory Wordlist**: [common.txt](https://github.com/v0re/dirb/blob/master/wordlists/common.txt)
-
-   Download these wordlists or use your own custom files and place them in the same directory as the script or specify the path when using custom wordlists.
+   Aside from the preset wordlists you can use your own custom files and place them in the same directory as the script or enter their full paths'.
 
 2. **Run the Scanner**
 
