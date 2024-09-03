@@ -56,7 +56,7 @@ The **Directory and Subdomain Scanner** is a Python-based tool designed to scan 
    Execute the script:
 
    ```bash
-   python Godfry.SubdomainScanner.py
+   python subdomain-directory-scanner.py
    ```
 
 3. **Interact with the Menu**
