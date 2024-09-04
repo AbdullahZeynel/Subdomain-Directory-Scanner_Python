@@ -35,8 +35,9 @@ custom wordlists.
 
 ==========================================
 """
-
+global wordlist
 wordlist = 'subdomains10000.txt'
+global directoryList
 directoryList = 'common.txt'
 #____________________________________________________________________________
 
@@ -92,8 +93,8 @@ def scan_directories():
         for subdomain_url in foundURL:
             subdomain_url = subdomain_url.strip()  
             
-            with open(directoryList, 'r') as directoryList:
-                for directory in directoryList:
+            with open(directoryList, 'r') as directories:
+                for directory in directories:
                     directory = directory.strip()  
                     url = f"{subdomain_url}/{directory}"
 
@@ -140,7 +141,6 @@ def main():
             print(url)
 
     elif userInput == '2':
-        global wordlist, directoryList
         while True:
             clearScreen()
             print(customization_menu)
